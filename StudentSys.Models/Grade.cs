@@ -15,5 +15,9 @@ namespace StudentSys.Models
         /// 年级名
         /// </summary>
         public string Name { get; set; }
+        /// <summary>
+        /// 序号
+        /// </summary>
+        public int Order { get; set; }
     }
 }
