@@ -15,9 +15,13 @@ namespace StudentSys.Models
         [ForeignKey(nameof(Subject))]
         public int Subject_Id { get; set; }
         public Subject Subject { get; set; }
+
         [ForeignKey(nameof(Student))]
         public int Student_Id { get; set; }
         public Student Student { get; set; }
+        /// <summary>
+        /// 考试成绩
+        /// </summary>
         public int ExamScore { get; set; }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StudentSys.Models
 {
     /// <summary>
-    /// 系统设置
+    /// 系统设置表
     /// </summary>
     public class SysSetting:BaseEntity
     {

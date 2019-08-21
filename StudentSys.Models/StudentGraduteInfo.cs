@@ -8,27 +8,29 @@ using System.Threading.Tasks;
 namespace StudentSys.Models
 {
     /// <summary>
-    /// 签到表
+    /// 毕业信息表
     /// </summary>
-    public class Signed:BaseEntity
+    public class StudentGraduteInfo:BaseEntity
     {
         [ForeignKey(nameof(Student))]
-        public int Student_Id { get; set; }
+        public int Studnet_Id { get; set; }
         public Student Student { get; set; }
-        [ForeignKey(nameof(Class))]
-        public int Class_Id { get; set; }
-        public Class Class { get; set; }
         /// <summary>
-        /// 签到时间
+        /// 公司名
         /// </summary>
-        public DateTime? InTime { get; set; }
+        public string CopyName { get; set; }
         /// <summary>
-        /// 签退时间
+        /// 薪资
         /// </summary>
-        public DateTime? OutTime { get; set; }
+        public decimal Salary { get; set; }
         /// <summary>
-        /// 签到类型
+        /// 毕业时间
         /// </summary>
-        public string SignedType { get; set; }
+        public DateTime InTime { get; set; }
+        /// <summary>
+        /// 职位
+        /// </summary>
+        public string Position { get; set; }
+        public string Address { get; set; }
     }
 }

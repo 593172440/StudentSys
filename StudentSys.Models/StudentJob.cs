@@ -15,9 +15,12 @@ namespace StudentSys.Models
         [ForeignKey(nameof(Student))]
         public int Student_Id { get; set; }
         public Student Student { get; set; }
+
         [ForeignKey(nameof(Class))]
         public int Class_Id { get; set; }
+        public Class Class { get; set; }
         public DateTime Time { get; set; }
+
         /// <summary>
         /// 完成情况
         /// </summary>

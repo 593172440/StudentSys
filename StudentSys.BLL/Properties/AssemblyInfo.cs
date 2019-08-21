@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("StudentSysBLL")]
+[assembly: AssemblyTitle("StudentSys.BLL")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("StudentSysBLL")]
+[assembly: AssemblyProduct("StudentSys.BLL")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("f8faafbc-3188-4aea-a256-d889880fb952")]
+[assembly: Guid("32774275-e1b9-4e3c-93a0-74c01c79beec")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
